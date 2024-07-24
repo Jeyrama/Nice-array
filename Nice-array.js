@@ -35,3 +35,16 @@ function isNice(arr){
 }
 
 // or
+
+function isNice(arr){
+  let niceCount = 0;
+    for (let i = 0; i < arr.length; i++){
+      for (let j = 0; j < arr.length; j++){
+        if (arr[i] === arr[j]-1 || arr[i] === arr[j]+1){
+          niceCount++;
+          break;
+        }
+      }
+    }
+    return (niceCount === arr.length && arr.length !== 0)
+  }
