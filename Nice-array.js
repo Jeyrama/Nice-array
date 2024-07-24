@@ -21,3 +21,6 @@ Write a function named isNice/IsNice that returns
 true if its array argument is a nice array, else false. 
 An empty array is not considered nice.
 */
+
+
+// Solution
