@@ -33,3 +33,5 @@ function isNice(arr){
   if (counter == arr.length && arr.length != 0) return true
   return false
 }
+
+// or
